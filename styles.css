@@ -1,16 +1,22 @@
 /* Header customizations */
-.custom-header-media {
+.admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media,
+.admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media,
+.admin-bar.home.blog.has-header-image .custom-header-media,
+.admin-bar.home.blog.has-header-video .custom-header-media {
 	height: 80vh;
 }
 
-.site-branding {
+.has-header-image.twentyseventeen-front-page .site-branding,
+.has-header-video.twentyseventeen-front-page .site-branding,
+.has-header-image.home.blog .site-branding,
+.has-header-video.home.blog .site-branding {
 	text-align: center;
 	margin-top: -200px;
 	bottom: auto;
 	top: 40%;
 }
 
-.site-branding a.custom-logo-link {
+.site-branding h1.site-title {
 	width: 400px;
     height: 356px;
     background-image: url(http://2017.jackson.wordcamp.org/files/2017/01/Jaxon-WC-Logo.png);
