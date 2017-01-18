@@ -1,0 +1,19 @@
+/* Header customizations */
+.custom-header-media {
+	height: 80vh;
+}
+
+.site-branding {
+	text-align: center;
+	margin-top: -200px;
+	bottom: auto;
+	top: 40%;
+}
+
+.site-branding a.custom-logo-link {
+	width: 400px;
+    height: 356px;
+    background-image: url(http://2017.jackson.wordcamp.org/files/2017/01/Jaxon-WC-Logo.png);
+    background-size: cover;
+    display: inline-block;
+}
